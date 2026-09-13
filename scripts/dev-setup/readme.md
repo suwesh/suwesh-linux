@@ -26,3 +26,6 @@
 * **Networking:** `networkmanager` (enabled via systemd)
 * **Text Editor:** `nano`
 * **Privilege Escalation:** `sudo` (configured via `/etc/sudoers.d/10-wheel`)
+
+## After configuration of GUI niri , launch with 
+`LIBGL_ALWAYS_SOFTWARE=1 niri --session` so kitty runs and doesnot conflict with virtualized graphics driver
